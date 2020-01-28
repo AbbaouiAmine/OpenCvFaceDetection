@@ -41,6 +41,7 @@ public class MainController {
 
         if ( !validateImage(file))
         {
+        	System.out.println("Not validate");
             return new ArrayList<>();
         }
 
